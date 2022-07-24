@@ -1,0 +1,10 @@
+curl --location --request POST 'localhost:8015/new' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name":"Aditya Birla",
+    "type":"IN",
+    "timestamp":"time",
+    "base64":"baze64"
+}'
+
+//
